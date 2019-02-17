@@ -4,6 +4,6 @@ class Food < Menu
 	attr_accessor :calorie
 
 	def calorie_info
-		return "#{name}は#{calorie}kcalです"
+		return "#{self.name}は#{self.calorie}kcalです"
   end
 end
